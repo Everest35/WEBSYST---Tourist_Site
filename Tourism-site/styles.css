@@ -1,0 +1,79 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #BFD8AF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-bg {
+    background-image: url(images/mainPageBackground.jpg);
+    filter: blur(2px);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #436850;
+    border: 2px white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-btn {
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+    padding: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99BC85;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-btn a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #436850;
+}
+
+.active {
+    background-color: #436850;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
